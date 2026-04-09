@@ -23,9 +23,7 @@ uv add mcp[cli] httpx
 new-item myfgmweather.py
 ```
 ### <u>adding the mcp to claude</u>
-open claude desktop --> settings --> develop -> edit config --> save 
-then 
-![App Tray Menu](https://github.com/GuyFomen/myfgmMCPRepo/blob/my_sql_mcp/myfgmweather/screenshots/tray-menu.png)
+open claude desktop --> settings --> develop -> edit config --> save your file
 
 ```bash
 "mcpServers": {
@@ -42,3 +40,5 @@ then
     }
 }
 ```
+then 
+![App Tray Menu](https://github.com/GuyFomen/myfgmMCPRepo/blob/my_sql_mcp/myfgmweather/screenshots/tray-menu.png)
