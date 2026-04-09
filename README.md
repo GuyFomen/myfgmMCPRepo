@@ -22,3 +22,23 @@ uv add mcp[cli] httpx
 # Create our server file
 new-item myfgmweather.py
 ```
+### <u>adding the mcp to claude</u>
+open claude desktop -> settings --> develop -> edit config --> save 
+then 
+![App Tray Menu](./screenshots/tray-menu.png)
+
+```bash
+"mcpServers": {
+    "myfgmweather": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "pathtoyourmcpserver\\myfgmweather.py"
+      ]
+    }
+}
+```
