@@ -25,7 +25,7 @@ new-item myfgmweather.py
 ### <u>adding the mcp to claude</u>
 open claude desktop --> settings --> develop -> edit config --> save 
 then 
-![App Tray Menu](C:\Users\chamb\Documents\AgentiCAiRepo\myfgmMCPRepo\myfgmweather\screenshots\tray-menu.png)
+![App Tray Menu](https://github.com/GuyFomen/myfgmMCPRepo/blob/my_sql_mcp/myfgmweather/screenshots/tray-menu.png)
 
 ```bash
 "mcpServers": {
