@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug test - myfgmmcpforsqlserver",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["tests/test_server.py", "-v", "-s"],
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}/myfgmmcpforsqlserver",
+            "python": "${workspaceFolder}/myfgmmcpforsqlserver/.venv/Scripts/python.exe",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/myfgmmcpforsqlserver"
+            }
+        },
+        {
+            "name": "Debug test - myfgmweather",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["tests/", "-v", "-s"],
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}/myfgmweather",
+            "python": "${workspaceFolder}/myfgmweather/.venv/Scripts/python.exe",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/myfgmweather"
+            }
+        }
+    ]
+}
