@@ -41,4 +41,5 @@ open claude desktop --> settings --> develop -> edit config --> save your file
 }
 ```
 then 
+
 ![App Tray Menu](https://github.com/GuyFomen/myfgmMCPRepo/blob/my_sql_mcp/myfgmweather/screenshots/tray-menu.png)
